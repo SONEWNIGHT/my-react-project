@@ -1,0 +1,31 @@
+.homeWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+
+    .todoList {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 500px;
+        height: 550px;
+        border: 1px solid #ccc;
+        padding: 20px;
+        box-sizing: border-box;
+
+        .inputWrap {
+            width: 100%;
+        }
+
+        .checkBoxWrap {
+            width: 100%;
+            height: 400px;
+            overflow: auto;
+            border: 1px solid #ccc;
+        }
+
+    }
+}

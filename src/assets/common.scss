@@ -1,0 +1,8 @@
+@mixin flex-com($direction:row, $content: center, $items: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $content;
+    align-items: $items;
+}
+
+$colorTheme: #5e77ff;

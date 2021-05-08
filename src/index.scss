@@ -1,0 +1,38 @@
+html,
+body,
+#root,
+.appContener {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.appContener {
+    display: flex;
+    flex-direction: column;
+
+    .navWrap {
+        height: 40px;
+    }
+
+    .contentWrap {
+        flex: 1;
+        display: flex;
+
+        .contentNav {
+            width: 70px;
+        }
+
+        .contentInfo {
+            flex: 1;
+        }
+    }
+
+}
